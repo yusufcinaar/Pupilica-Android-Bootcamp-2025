@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Turkish -->
+    <string name="app_name">Yemek Uygulaması</string>
+    <string name="lets_eat">Kaliteli yemek yiyelim</string>
+    <string name="search_hint">Yemek ara</string>
+    <string name="about">Hakkında</string>
+    <string name="add_to_cart">Sepete ekle</string>
+    <string name="payment_method">Ödeme Yöntemi</string>
+    <string name="credit_card">Kredi Kartı</string>
+    <string name="paypal">Paypal</string>
+    <string name="google_pay">Google Pay</string>
+    <string name="notification">Bildirim</string>
+    <string name="my_order">Siparişlerim</string>
+</resources>
