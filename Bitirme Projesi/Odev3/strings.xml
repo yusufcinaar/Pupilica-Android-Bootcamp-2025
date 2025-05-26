@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- English (default) -->
+    <string name="app_name">Food App</string>
+    <string name="lets_eat">Let\'s eat Quality food</string>
+    <string name="search_hint">Search food</string>
+    <string name="about">About</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="paypal">Paypal</string>
+    <string name="google_pay">Google Pay</string>
+    <string name="notification">Notification</string>
+    <string name="my_order">My Order</string>
+</resources>

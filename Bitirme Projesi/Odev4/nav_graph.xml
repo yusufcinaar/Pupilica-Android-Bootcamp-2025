@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.navigationapp.MainFragment"
+        android:label="Ana Sayfa">
+        <action
+            android:id="@+id/action_main_to_pageA"
+            app:destination="@id/pageAFragment" />
+        <action
+            android:id="@+id/action_main_to_pageX"
+            app:destination="@id/pageXFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/pageAFragment"
+        android:name="com.example.navigationapp.PageAFragment"
+        android:label="Sayfa A">
+        <action
+            android:id="@+id/action_pageA_to_pageB"
+            app:destination="@id/pageBFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/pageBFragment"
+        android:name="com.example.navigationapp.PageBFragment"
+        android:label="Sayfa B">
+        <action
+            android:id="@+id/action_pageB_to_pageY"
+            app:destination="@id/pageYFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/pageXFragment"
+        android:name="com.example.navigationapp.PageXFragment"
+        android:label="Sayfa X">
+        <action
+            android:id="@+id/action_pageX_to_pageY"
+            app:destination="@id/pageYFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/pageYFragment"
+        android:name="com.example.navigationapp.PageYFragment"
+        android:label="Sayfa Y">
+        <action
+            android:id="@+id/action_pageY_to_main"
+            app:destination="@id/mainFragment"
+            app:popUpTo="@id/mainFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+</navigation>
